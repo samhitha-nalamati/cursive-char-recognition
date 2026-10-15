@@ -27,7 +27,7 @@ from labels import NUM_CLASSES, IDX_TO_CLASS
 CHECKPOINT = "checkpoints/best.pt"
 DEFAULT_TOPK = 5
 
-st.set_page_config(page_title="Character Classifier", page_icon="✍️", layout="centered")
+st.set_page_config(page_title="Cursive Character Recognition", page_icon="✍️", layout="centered")
 
 
 # ---------------------------------------------------------------------------
