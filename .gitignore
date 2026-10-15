@@ -1,0 +1,21 @@
+# generated images
+segments_out/
+
+# trained models and logs
+checkpoints_with_emnist/
+training_log.txt
+
+# python / editor junk
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.vscode/
+
+# zips and other large files
+*.zip
+predict_word.py
+convert_emnist.py
+check_counts.py
+data/raw
+
