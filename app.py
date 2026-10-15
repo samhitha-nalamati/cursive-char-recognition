@@ -139,7 +139,7 @@ def render_preview(preview_tensor):
 # Main app
 # ---------------------------------------------------------------------------
 def main():
-    st.title("✍️ Character Classifier")
+    st.title("✍️ Cursive Character Recognition")
     st.caption("Draw or upload a character — digits 0–9, lowercase a–z, uppercase A–Z.")
 
     if not Path(CHECKPOINT).exists():
